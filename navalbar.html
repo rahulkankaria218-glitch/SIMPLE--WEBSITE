@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>naval bar</title>
+    <link rel="stylesheet" href="gptcode.css">
+    <style>
+        p{
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="menu-icon" onclick="toggleNav()">☰</div>
+    <p>HELLO WELCOME TO MY WEBSITE</p>
+
+
+    <nav class="navbar" id="sidebar">
+        <ul>
+            <li><a href="homepage.html">ABOUT ME</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="jr.html">LEARNING JOURNEY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+
+    </nav>
+    <script>
+        function toggleNav() {
+            document.getElementById("sidebar").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
